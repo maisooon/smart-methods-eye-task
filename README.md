@@ -1,0 +1,1 @@
+# smart-methods-task-2
