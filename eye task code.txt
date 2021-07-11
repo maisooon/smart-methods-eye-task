@@ -1,0 +1,20 @@
+/* by Maisoon Falqi 
+the circuit is series wired to contain the current undivided.
+the LED is coded to blink every 20 Msec which is unnoticed, 
+and thats how it works all day without losing efficiency.
+*/
+
+void setup() 
+{ 
+   // initialize digital pin 10 as an output.
+   pinMode(10, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() 
+{
+   digitalWrite(10, HIGH); // turn the LED on (HIGH is the voltage level)
+   delay(20); // wait for 20 Msec
+   digitalWrite(10, LOW); // turn the LED off by making the voltage LOW
+   delay(20); // wait for 20 Mseco
+}
